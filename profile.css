@@ -1,0 +1,153 @@
+
+.submenu-head
+{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.submenu
+{
+    display: none;
+    margin-top: 10px;
+}
+.display-submenu:hover > .submenu
+{
+position: absolute;
+display: block;
+background-color:rgb(45,141,89) ;
+padding: 0px;
+
+}
+.btn
+{
+    background: transparent;
+    border: none;
+    font-size: large;
+}
+.up-pass
+{
+    font-size: medium;
+}
+
+.head
+{
+    margin-top: 30px;
+    margin-left: 120px;
+    text-shadow: 1px 1px rgb(207, 20, 88);
+    color: rgb(77, 40, 1);
+}
+.update-profile
+{
+    background-color: rgb(236, 236, 236);
+    margin: 30px 550px 40px 100px;
+    padding: 30px 0px 50px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.Update-form
+{
+   margin-left: 50px;
+   justify-items: space-between;
+   display: flex;
+   
+}
+
+
+.input
+{
+margin: 0px 0px 10px 0px;
+
+}
+.sub-btn
+{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+#btn
+{
+    padding:10px 25px;
+    background-color: rgb(255, 182, 104);
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#btn:hover
+{
+   
+    background-color: rgb(255, 130, 41);
+}
+
+
+#name
+{
+    margin-left: 33px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+input[type="email"]
+{
+    margin-left: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px;
+    padding-right: 50px;
+}
+input[type="tel"]
+{
+    margin-left: 31px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px;
+    padding-right: 50px;
+}
+#nid
+{
+    margin-left: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px;
+    padding-right: 50px;
+}
+input[type="date"]
+{
+    margin-left: 45px;
+    text-align: right;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px 82px 10px 10px;
+}
+
+input[type="number"]
+{
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+textarea
+{
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+    padding-right: 5px;
+}
+
+/* hover design */
+
+#name:hover,textarea:hover,input[type="number"]:hover,input[type="date"]:hover,input[type="tel"]:hover,#nid:hover,input[type="email"]:hover
+{
+    background-color: rgb(230, 249, 252);
+}

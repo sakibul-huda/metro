@@ -1,0 +1,153 @@
+/* Search Button title colour and decoration */
+.search-btn
+{
+    color: rgb(119, 63, 2);
+    text-decoration: none;
+}
+
+/* design from-to head and input  */
+.search {
+    margin-top: 0px;
+    margin-left: 170px;
+}
+
+.from-station-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-right: 142px;
+    color: rgb(119, 63, 2);
+}
+
+.to-station-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(119, 63, 2);
+}
+.label-form
+{
+    margin-bottom: 8px;
+}
+#From 
+{
+    border: 1px solid   rgb(73, 33, 33);
+    border-radius: 5px;
+    padding: 5px 15px 10px 5px;
+    background-color: rgb(246, 246, 243);
+    box-shadow: 1px 1px 1px 1px gray;
+    color: rgb(119, 63, 2);
+   
+
+} 
+
+#To
+{
+    border: 1px solid rgb(73, 33, 33);
+    border-radius: 5px;
+    padding: 5px 20px 10px 5px;
+    margin-left: 15px;
+    background-color: rgb(246, 246, 243);
+    box-shadow: 1px 1px 1px 1px gray;
+    color: rgb(119, 63, 2);}
+.input-form
+{
+    margin-bottom: 8px;
+}
+/* from date to search box design */
+.DateToSearch {
+    display: block;
+    margin-bottom: 12px;
+    color: rgb(119, 63, 2);
+    font-size: 20px;
+    background-color: rgb(246, 246, 243);
+    border: 1px solid rgb(73, 33, 33);
+    border-radius: 5px;
+    
+}
+
+
+label[for="date"]
+ {
+    background-color: transparent;
+    border: none;
+ }
+ /* date input box design*/
+#date
+{
+    background-color: rgb(246, 246, 243);
+    border: 1px solid rgb(73, 33, 33);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 20px 7px 20px;
+    color: rgb(119, 63, 2);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+/*search button design*/
+#search-button
+{
+    margin: 15px 75px 0px 0px;
+    padding: 2px 100px 7px 121px;
+    box-shadow: 1px 1px 1px 1px gray;
+   
+}
+/* Rapid and Mrt Pass*/
+.pass {
+    display: flex;
+    padding-top: 50px;
+    
+}
+.Rapid-Pass
+{ 
+    box-shadow: 1px 1px 1px 1px gray;
+    border: 1px solid rgb(73, 33, 33);
+    border-radius: 5px;
+    padding:0px 40px 5px 35px;
+    background-color: #ffc90a;
+    font-size: 20px;
+}
+.Mrt-Pass
+{
+    box-shadow: 1px 1px 1px 1px gray;
+    border: 1px solid rgb(73, 33, 33);
+    border-radius: 5px;
+    padding:0px 40px 5px 50px;
+    margin-left: 20px;
+    background-color: #ffc90a;
+    font-size: 20px; 
+}
+
+/* design all content inside body*/
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*image design*/
+.front-image {
+    height: 400px;
+    width: 550px;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 5px grey;
+    border: 1px solid green;
+    margin: 80px 110px 0px 0px;
+    margin-bottom: 50px;
+}
+/* hover design */
+#search-button:hover,#To:hover,#From:hover
+{
+    background-color: rgb(230, 249, 252);
+    /* background-color: #f6d766; */
+}
+#date:hover
+{
+    background-color: rgb(230, 249, 252);
+}
+.Rapid-Pass:hover,.Mrt-Pass:hover
+{
+    background-color: rgb(230, 249, 252);
+}
+.footer-contact
+{
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    font-family: "Sansita", sans-serif;
+}
+/*navigation background colour */
+header
+{
+    padding-top: 0px;
+    box-shadow: 1px 1px 1px rgb(81, 81, 81);
+}
+/* display menu button as menu*/
+nav > ul
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    /* background-color:rgba(0, 117, 51, 0.756) ; */
+    background-color:rgb(45,141,89) ;
+    padding: 10px 10px;
+    
+}
+/*display title & button placment on right position */
+.site-title 
+{
+    margin-left: 15px;
+    font-size: 210%;
+    margin-right: 550px;
+    text-decoration: none;
+    color: black;
+}
+/* display logo*/
+.logo
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+/* button design*/
+nav ul li 
+{
+    padding: 10px 20px;
+    list-style-type: none;
+    
+}
+/*button deisgn*/
+nav ul li  a
+{   
+    font-size: 140%;
+    color: black;
+    text-decoration: none;
+    /* font-weight: 600; */
+}
+
+/* hover design*/
+nav li:hover
+{
+    background-color: rgb(212, 245, 244);
+    border-radius: 5px;
+   
+}
+/* footer design */
+.footer p
+{
+    background-color: rgb(233, 248, 249);
+    /* text-align: center; */
+    font-size: small;
+    margin: 5px 15px 0px 15px;
+    padding: 20px 15px 25px 15px;
+    
+}
+footer
+{
+    box-shadow: 2px 2px 2px 2px rgb(9, 9, 9);
+    /* margin-top:50px; */
+}
+.footer
+{
+    background-color: rgb(233, 248, 249);
+    padding-bottom: 40px;
+    /* margin-top:50px; */
+}
+.footer-element
+{
+display: flex;
+justify-content: space-around;
+padding-top: 50px;
+padding-bottom: 10px;
+text-align: center;
+}

@@ -1,0 +1,94 @@
+
+.form-body
+{
+    background-color: rgb(236, 236, 236);
+    margin: 20px 550px 40px 550px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.heading
+{
+margin-top: 50px;
+text-align: center;
+color: rgb(119, 63, 2);
+}
+.form-title
+{
+    text-align: center;
+    font-size: 90%;
+    padding-bottom: 15px;
+}
+.title1
+{
+    font-size: large;
+    padding-bottom: 3px;
+}
+.input-form
+{
+    text-align: center;
+    padding-bottom: 10px ;
+}
+#verify-btn
+{
+    text-align: center;
+    padding: 8px 61px;
+    /* font-size: large; */
+    margin-bottom: 5px;
+}
+#verify-btn:hover
+{
+    background-color: rgb(214, 244, 234);
+}
+
+#submit-btn
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 44px;
+    padding-right:44px;
+}
+#submit-btn:hover
+{
+    background-color: rgb(214, 244, 234);
+}
+
+input,button
+{
+    border: 1px solid rgb(89, 0, 0);
+    border-radius: 3px;
+    text-align: center;
+    padding: 8px 5px;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+input:hover
+{
+    background-color: rgb(214, 244, 234);
+}
+#dob
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    color: gray;
+}
+.input-dob
+{
+    position: absolute;
+    padding: 10px 3px ;
+    color:gray;
+}
+.Already-registered
+{
+    text-align:center;
+    text-decoration: none;
+    color: rgb(72, 38, 2);
+}
+.Already-registered:hover
+{
+    
+    text-decoration: underline;
+    color:rgb(36, 92, 144);
+}

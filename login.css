@@ -1,0 +1,106 @@
+.login-logo
+{
+    border-radius: 50%;
+    border: 1px solid pink;
+    height:100px ;
+    width: 100px;
+}
+
+/* title and sub-title design */
+.title
+{
+    color: #5A2D2D;
+    text-shadow: 1px 1px 2px #331d1d ;
+}
+.sub-title
+{
+    color: #6C6060;
+    text-shadow: 1px 2px 2px #c0c0c0;
+}
+
+.login-form-head
+{
+    display:flex;
+    justify-content:space-between;
+    padding-right:10px;
+    padding-left:10px; 
+    margin-bottom: 20px ;
+}
+.form-title:hover
+{
+    text-decoration: underline;
+    
+}
+.login-input
+{
+    display: block;
+    
+}
+
+.login-btn
+{
+ text-decoration: none;
+ color: rgb(170, 136, 102);
+ font-weight:bold;
+ border-radius: 5px;
+ padding: 5px 31px 5px 31px;
+ background-color: rgb(224, 219, 219);
+
+}
+
+.register-btn
+{
+ text-decoration: none;
+ color: rgb(170, 136, 102);
+ font-weight: bold;
+}
+.register-btn:hover
+{
+color: #5A2D2D;
+text-decoration:underline;
+}
+
+main
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.login-background
+{
+    background:#ebe5e5cf;
+    margin:20px 550px 40px 550px;
+    padding:10px 10px 30px 10px;
+    box-shadow:1px 1px 5px 1px gray;
+    border: 1px solid gray;
+}
+.input-box
+{
+    padding-bottom: 10px;
+  
+}
+#phone,#password
+{
+text-align: center;
+background-color: rgb(224, 219, 219);
+padding: 5px;
+border-radius: 5px;
+}
+#phone:hover,#password:hover,.login-btn:hover
+{
+    background-color: #f8f6f6;
+}
+
+.text-or
+{
+    color:rgb(141, 107, 62)
+}
+marquee
+{
+    text-decoration:rgb(179, 211, 224) wavy underline;
+    text-shadow: 1px 0px gray;
+    border: 1px solid rgb(206, 218, 206);
+    box-shadow: 1px 1px gray;
+    background-color: rgb(233, 228, 221);
+}

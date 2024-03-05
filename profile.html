@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="https://kit.fontawesome.com/f0c41bb964.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="metro.png" type="image/x-icon">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="metro.png" alt="metro logo" class="logo" style="background-color:white;">
+                <a class="site-title" href="index.html">
+                    <p>Bangladesh <br>Metro Rail</p>
+                </a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="metroinfo.html">Metro Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="display-submenu"> <a href="profile.html" class="submenu-head">Profile</a>
+                    <ul class="submenu">
+                        <li>Sakibul Huda</li>
+                        <li>shuda594@gmail.com</li>
+                        <li>+8801788852854</li>
+                        <li><a href="update-password.html " class="up-pass">Update Password</a></li>
+                        <li><button class="btn">logout</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="head">Update Profile</h1>
+        <div class="update-profile">
+
+            <div class="Update-form">
+                <div class="label"><label for="username">Name </label></div>
+                <div class="input"><input type="text" id="name"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label"><label for="email">Email</label></div>
+                <div class="input"><input type="email"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label"><label for="phone">Phone </label></div>
+                <div class="input"><input type="tel"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label"><label for="nid">NID </label></div>
+                <div class="input"><input type="number" id="nid"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label"><label for="dob">DOB </label>
+                </div>
+                <div class="input"><input type="date"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label"><label for="post-code">Post Code </label></div>
+                <div class="input"><input type="number"></div>
+            </div>
+            <div class="Update-form">
+                <div class="label">
+                    <label for="Address">Address</label>
+                </div>
+                <div class="input"><textarea cols="30" rows="2"></textarea></div>
+            </div>
+            <div class="sub-btn">
+                <button id="btn">Submit</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-element">
+                <div class="footer-contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>
+                        bdmetro@gmail.com
+                    </h5>
+                </div>
+                <div class="footer-contact">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h5>+8801874586820 <br>+8801719123629</h5>
+                </div>
+                <div class="footer-contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5>Metro Rail Office,Begum Rukeya Avenue,Dhaka</h5>
+                </div>
+            </div>
+            <p>
+                © 2024 Metro Rail eTicket. All rights reserved. No part of this electronic ticket may be reproduced,
+                distributed, or transmitted in any form or by any means, including photocopying, recording, or other
+                electronic or mechanical methods, without the prior written permission of the copyright holder, except
+                in the case of brief quotations embodied in critical reviews and certain other noncommercial uses
+                permitted by copyright law. For permission requests, contact Banladesh Metro at
+                <strong>bdmetro@gmail.com</strong>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
